@@ -80,3 +80,9 @@ El dashboard fue publicado utilizando Power BI Service mediante la opción **Pub
 - El ingreso se utiliza como proxy de nivel socioeconómico y no incorpora otras dimensiones como educación u ocupación.
 - Los datos corresponden a un solo año (2022), por lo que no se analizan tendencias temporales.
 
+---
+
+## Link dashboard
+
+https://app.fabric.microsoft.com/view?r=eyJrIjoiMGIwZTJjYjEtZjU0Zi00YjY4LTk1OGYtOTkxYWUxOWU0ZDA2IiwidCI6IjZmZDQ4ZjQxLWFmODEtNDVhNS05YzFlLWUzOTkwYmMyN2U3YyIsImMiOjR9
+
