@@ -1,0 +1,8 @@
+#tabla region
+
+let
+    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("ZZFPToQwFMav0rCeGBhHR5cMCzUZohmNm3EWH1CxSWmxlAXewiOwdMHCeIReTKAsbF2+/N7L9+cdj0EUrIIDLZn5EaSg5AkKNXLTB6fVMVi7MBZavqJEozHjcw9r5Kgs2rgoke8tqzI5swuXPYPXo6oZGosvHczJnmVUaRRSkRsFfkZ2VAmoQpL7lzYM19tbVpZMNPPx1jtO0XI6kyuP7JjMzGAlr11He5BYoc0hzGDjRKG3IZtxq5RWNPJKjLvGfFkV6ziB4uPFXWZ6800/ZpKgqq165NWcjhVzDkEb0k0zx9S86ZVmOUjyxjgVi62/H0ipVrKWnGkITHePEJqNJu3q5n+Cw5h/SeD9JFaTVEceoJhALpeHR+5viPlss6ne0y8=", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [NumeroRegion = _t, NombreRegion = _t]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"NumeroRegion", Int64.Type}, {"NombreRegion", type text}}),
+    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"NumeroRegion", "region"}})
+in
+    #"Columnas con nombre cambiado"

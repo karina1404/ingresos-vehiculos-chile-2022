@@ -1,0 +1,8 @@
+#= Table.RenameColumns(_TBL_VehículosConMotor,{{"Glosa Región", "NombreRegion"}})
+
+let
+    Origen = Access.Database(File.Contents("C:\Users\Razon\Downloads\base-de-datos-permisos-de-circulación.accdb"), [CreateNavigationProperties=true]),
+    _TBL_VehículosConMotor = Origen{[Schema="",Item="TBL_VehículosConMotor"]}[Data],
+    #"Columnas con nombre cambiado" = Table.RenameColumns(_TBL_VehículosConMotor,{{"Glosa Región", "NombreRegion"}})
+in
+    #"Columnas con nombre cambiado"

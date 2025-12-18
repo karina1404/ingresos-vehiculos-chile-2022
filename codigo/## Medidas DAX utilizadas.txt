@@ -1,0 +1,10 @@
+## Medidas DAX utilizadas
+
+### Total de vehículos en circulación
+```DAX
+Total Vehículos =
+SUM ( 'TBL_VehículosConMotor'[Bencinero] )
++ SUM ( 'TBL_VehículosConMotor'[Diésel] )
++ SUM ( 'TBL_VehículosConMotor'[Gas] )
++ SUM ( 'TBL_VehículosConMotor'[Eléctrico] )
++ SUM ( 'TBL_VehículosConMotor'[Otro] )
