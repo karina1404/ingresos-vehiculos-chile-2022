@@ -11,7 +11,7 @@ El objetivo del análisis es identificar si las regiones con mayores niveles de 
 
 - **Encuesta CASEN 2022**
   - Fuente: Ministerio de Desarrollo Social y Familia
-  - link: https://bidat.gob.cl/details/ficha/dataset/1efce22b-d7cb-4f3b-931e-e882fce2a02c
+  - Link: https://bidat.gob.cl/details/ficha/dataset/1efce22b-d7cb-4f3b-931e-e882fce2a02c
   - Variables utilizadas:
     - `ytoth`: Ingreso total del hogar
     - `region`: Región
@@ -21,7 +21,7 @@ El objetivo del análisis es identificar si las regiones con mayores niveles de 
 - **Permisos de circulación 2022**
   - Fuente: Instituto Nacional de Estadísticas (INE)
   - Tabla: `TBL_VehículosConMotor`
-  - link: https://www.ine.gob.cl/estadisticas/economia/transporte-y-comunicaciones/permiso-de-circulacion?utm_source=chatgpt.com
+  - Link: https://www.ine.gob.cl/estadisticas/economia/transporte-y-comunicaciones/permiso-de-circulacion?utm_source=chatgpt.com
   - Variables utilizadas:
     - Bencinero, Diésel, Gas, Eléctrico, Otro
     - Glosa Región
